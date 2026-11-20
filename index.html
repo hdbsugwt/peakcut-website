@@ -1,40 +1,144 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PeakCut – Video Clipping</title>
-  <style>
-    body {
-      margin: 0;
-      background: #101014;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 80px 20px;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PeakCut – AI-powered video clipping</title>
+
+<meta name="description" content="PeakCut helps users create short video clips and manage content for connected social media platforms.">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #101014;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.logo {
+    color: #ed4b91;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 21px;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.description {
+    max-width: 600px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #aaa;
+}
+
+footer {
+    border-top: 1px solid #29292f;
+    padding: 25px 20px;
+    text-align: center;
+    background: #141419;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-bottom: 18px;
+}
+
+a {
+    color: #ed4b91;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    color: #888;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 38px;
     }
-    h1 { font-size: 48px; }
-    h1 span { color: #ed4b91; }
-    p { color: #bbb; line-height: 1.7; }
-    a { color: #ed4b91; margin: 12px; }
-  </style>
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+</style>
 </head>
+
 <body>
-  <h1>Peak<span>Cut</span></h1>
-  <h2>AI-powered video clipping</h2>
-  <p>
-    PeakCut helps users create short video clips
-    and manage content for connected social media platforms.
-  </p>
-  <p>
-    Create clips, prepare videos and manage your
-    social media content in one place.
-  </p>
-  <p>
-    <a href="terms.html">Terms of Service</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </p>
-  <p>Contact: streamerclips38@outlook.de</p>
+
+<main>
+    <div class="logo">PeakCut</div>
+
+    <div class="subtitle">
+        AI-powered video clipping
+    </div>
+
+    <div class="description">
+        <p>
+            PeakCut helps users create short video clips
+            and manage content for connected social media platforms.
+        </p>
+
+        <p>
+            Create clips, prepare videos and manage your
+            social media content in one place.
+        </p>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-links">
+        <a href="terms.html">Terms of Service</a>
+
+        <a href="privacy.html">Privacy Policy</a>
+
+        <a href="acceptable-use.html">Acceptable Use Policy</a>
+    </div>
+
+    <div class="contact">
+        Contact:
+        <a href="mailto:streamerclips38@outlook.de">
+            streamerclips38@outlook.de
+        </a>
+    </div>
+</footer>
+
 </body>
 </html>
+```
